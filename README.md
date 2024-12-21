@@ -18,6 +18,7 @@ This Python script dumps  Fortnite API. It filters cosmetics based on season par
 To install the required dependencies, run the following command:
 ```bash
 pip install requests
+pip install json
 ```
 
 ---
