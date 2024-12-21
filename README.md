@@ -1,4 +1,4 @@
-# Dumper Script Documentation
+# Fortnite Cosmetic Dumper
 
 ## Overview
 This Python script dumps  Fortnite API. It filters cosmetics based on season parameter. The filtered data is then saved as a JSON file.
