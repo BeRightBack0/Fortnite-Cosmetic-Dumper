@@ -105,11 +105,40 @@ Sample JSON structure of the output file:
 ```json
 [
     {
-        "id": "item_id",
-        "name": "Item Name",
-        "type": { "backendValue": "AthenaCharacter" },
-        "images": { "featured": "https://example.com/image.jpg" },
-        "introduction": { "chapter": "1", "season": "2" }
+        "id": "CID_010_Athena_Commando_M",
+        "name": "Ranger",
+        "description": "Uncommon ranger outfit.",
+        "type": {
+            "value": "outfit",
+            "displayValue": "Outfit",
+            "backendValue": "AthenaCharacter"
+        },
+        "rarity": {
+            "value": "uncommon",
+            "displayValue": "Uncommon",
+            "backendValue": "EFortRarity::Uncommon"
+        },
+        "introduction": {
+            "chapter": "1",
+            "season": "1",
+            "text": "Introduced in Chapter 1, Season 1.",
+            "backendValue": 1
+        },
+        "images": {
+            "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_010_athena_commando_m/smallicon.png",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_010_athena_commando_m/icon.png",
+            "featured": "https://fortnite-api.com/images/cosmetics/br/cid_010_athena_commando_m/featured.png",
+            "lego": {
+                "small": "https://fortnite-api.com/images/cosmetics/lego/cid_010_athena_commando_m/small.png",
+                "large": "https://fortnite-api.com/images/cosmetics/lego/cid_010_athena_commando_m/large.png"
+            },
+            "bean": {
+                "small": "https://fortnite-api.com/images/cosmetics/beans/bean_ranger/small.png",
+                "large": "https://fortnite-api.com/images/cosmetics/beans/bean_ranger/large.png"
+            }
+        },
+        "showcaseVideo": "z8veIqFKlCM",
+        "added": "2019-11-20T12:50:30Z"
     },
     ...
 ]
@@ -125,5 +154,5 @@ Sample JSON structure of the output file:
 ---
 
 ## License
-This script is distributed "as is" without any warranty. Use it at your own discretion and risk.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
