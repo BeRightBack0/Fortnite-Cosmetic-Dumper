@@ -1,5 +1,7 @@
 # Fortnite Cosmetic Dumper
-
+![Size](https://img.shields.io/github/repo-size/BeRightBack0/Fortnite-Cosmetic-Dumper)
+![Downloads](https://img.shields.io/github/downloads/BeRightBack0/Fortnite-Cosmetic-Dumper/total)
+![License](https://img.shields.io/github/license/BeRightBack0/Fortnite-Cosmetic-Dumper)
 ## Overview
 This Python script dumps  Fortnite API. It filters cosmetics based on season parameter. The filtered data is then saved as a JSON file.
 
